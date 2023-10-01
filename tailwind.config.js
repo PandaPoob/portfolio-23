@@ -25,7 +25,7 @@ module.exports = {
       h3: ["2.25rem", { lineHeight: "normal", fontWeight: "400" }], //36px
       h4: ["2rem", { lineHeight: "normal" }], //32px
       body: ["1.5rem", { lineHeight: "normal" }], //24px
-      bodyS: ["1.25rem", { lineHeight: "normal" }], //20px
+      bodyS: ["1.125rem", { lineHeight: "normal" }], //18px
       tag: ["1rem", { lineHeight: "normal" }], //16px
       text: ["0.875rem", { lineHeight: "normal" }], //14px
     },

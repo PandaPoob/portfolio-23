@@ -3,7 +3,10 @@ import Image from "next/image";
 
 function Contact() {
   return (
-    <section className="mt-20 bg-top-grad py-14 flex flex-col items-center md:pt-20">
+    <section
+      id="contact"
+      className="mt-20 bg-top-grad py-14 flex flex-col items-center md:pt-20"
+    >
       <h2 className="font-display text-h4 text-center mb-8 md:text-h2">
         Get in touch
       </h2>

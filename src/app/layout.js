@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Playfair_Display, Source_Sans_3 } from "next/font/google";
 import Footer from "./_components/Footer";
+import Navigation from "./_components/Navigation";
 
 //const inter = Inter({ subsets: ["latin"] });
 //const playfair = Playfair_Display({ subsets: ["latin"] });
@@ -25,7 +26,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="scroll-smooth">
       <body className={`${playfair.variable} ${source.variable}`}>
-        {/* nav */}
+        <Navigation />
         <div className="text-dark font-body">{children}</div>
         <Footer />
       </body>

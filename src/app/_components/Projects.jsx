@@ -2,7 +2,7 @@ import ProjectCard from "@/app/_components/ProjectCard";
 
 function Projects({ data }) {
   return (
-    <section className="mt-20">
+    <section id="projects" className="mt-20">
       <h2 className="font-display text-h4 text-center mb-14 md:text-h2">
         Projects
       </h2>
