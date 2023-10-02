@@ -51,6 +51,7 @@ function About() {
             src={"/about_img.png"}
             fill={true}
             alt="Freja"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw"
             style={{ objectFit: "contain" }}
           />
         </div>

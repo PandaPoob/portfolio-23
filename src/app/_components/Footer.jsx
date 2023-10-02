@@ -17,7 +17,7 @@ function Footer() {
         <Link href="https://github.com/PandaPoob" target="_blank">
           <Image src={"/icon_github.svg"} width={36} height={12} alt="Github" />
         </Link>
-        <Link href="https://github.com/PandaPoob">
+        <Link href="https://github.com/PandaPoob" className="h-auto">
           <Image src={"/icon_mail.svg"} width={38} height={12} alt="Email" />
         </Link>
       </div>

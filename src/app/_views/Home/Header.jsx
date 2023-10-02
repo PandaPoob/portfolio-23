@@ -12,6 +12,7 @@ function Header() {
               fill={true}
               alt="Freja"
               style={{ objectFit: "contain" }}
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw"
               priority
             />
           </div>

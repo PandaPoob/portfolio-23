@@ -4,7 +4,7 @@ import Contact from "./Contact";
 import Projects from "@/app/_components/Projects";
 
 function Home({ data }) {
-  console.log(data);
+
   return (
     <main>
       <Header />

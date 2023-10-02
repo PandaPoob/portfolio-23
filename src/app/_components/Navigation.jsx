@@ -36,7 +36,7 @@ function Navigation() {
   }
 
   return (
-    <nav className="bg-light p-3 fixed left-0 w-full transition-transform duration-300 transform z-20"
+    <nav className="bg-light p-3 fixed left-0 w-full transition-transform duration-300 transform z-50"
     style={{
       transform: `translateY(${getTopValue()})`,
       ...(isScrolling && oldScrollPosition !== 0 && { boxShadow: "2px 2px 4px 1px rgba(32, 16, 54, 0.20)" })
