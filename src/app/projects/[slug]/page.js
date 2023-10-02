@@ -4,7 +4,7 @@ import Project from "@/app/_views/Project";
 export default async function ProjectPage({ params }) {
   const data = await getData(params);
 
-  return <Project {...data}/>;
+  return <Project {...data} />;
 }
 
 export async function generateStaticParams() {
@@ -13,6 +13,7 @@ export async function generateStaticParams() {
 
   return projects.map((p) => ({
     slug: p.slug,
+    title: p.title,
   }));
 }
 
@@ -25,32 +26,31 @@ async function getData(params) {
 }
 
 export async function generateMetadata({ params }) {
-
   let title;
-  switch(params.slug) {
+  switch (params.slug) {
     case "twitter":
-      title = "Twitter project"
+      title = "Twitter Clone";
       break;
     case "change":
-      title ="Change Lingerie"
+      title = "Change Lingerie";
       break;
     case "kv":
-      title = "Kattens Værn"
+      title = "Kattens Værn";
       break;
-      case "hwating":
-      title = "Hwaiting Festival"
+    case "hwating":
+      title = "Hwaiting Festival";
       break;
-      case "hogwarts":
-      title = "Hacked Hogwarts"
+    case "hogwarts":
+      title = "Hacked Hogwarts";
       break;
-      case "panda":
-      title = "Whack-A-Panda"
+    case "panda":
+      title = "Whack-A-Panda";
       break;
     default:
-      title = "Project"
-  } 
+      title = "Project";
+  }
 
   return {
     title: `Projects // ${title}`,
-  }
+  };
 }

@@ -19,7 +19,6 @@ module.exports = {
       light: "#F2F1FF",
       white: "#FFFFFF",
       filter: "rgba(255, 255, 255, 0.67)",
-
     },
     fontSize: {
       h1: ["4rem", { lineHeight: "normal", fontWeight: "400" }], //64px
@@ -38,11 +37,11 @@ module.exports = {
     extend: {
       backgroundImage: {
         "bottom-grad":
-          "linear-gradient(180deg, #F2F1FF 91.2%, rgba(242, 241, 255, 0.00) 94.5%)",
+          "linear-gradient(180deg, #F2F1FF 91.2%, rgba(242, 241, 255, 0.00) 95%)",
         "top-grad":
           "linear-gradient(180deg, rgba(242, 241, 255, 0.00) 0%, #F2F1FF 6.25%)",
-        'panda': "url('/splash_img/splash_panda.png')",
-        },
+        panda: "url('/splash_img/splash_panda.png')",
+      },
       boxShadow: {
         card: "2px 2px 4px 1px rgba(32, 16, 54, 0.48)",
         nav: "2px 2px 4px 1px rgba(32, 16, 54, 0.20)",

@@ -1,15 +1,14 @@
 import Header from "./Header";
 import About from "./About";
 import Contact from "./Contact";
-import Projects from "@/app/_components/Projects";
+import ProjectList from "@/app/_components/ProjectList";
 
 function Home({ data }) {
-
   return (
     <main>
       <Header />
       <About />
-      <Projects data={data} />
+      <ProjectList data={data} />
       <Contact />
     </main>
   );

@@ -1,6 +1,6 @@
 import ProjectCard from "@/app/_components/ProjectCard";
 
-function Projects({ data }) {
+function ProjectList({ data }) {
   return (
     <section id="projects" className="mt-20">
       <h2 className="font-display text-h4 text-center mb-14 md:text-h2">
@@ -17,4 +17,4 @@ function Projects({ data }) {
   );
 }
 
-export default Projects;
+export default ProjectList;

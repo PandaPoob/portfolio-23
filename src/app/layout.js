@@ -3,10 +3,6 @@ import { Playfair_Display, Source_Sans_3 } from "next/font/google";
 import Footer from "./_components/Footer";
 import Navigation from "./_components/Navigation";
 
-//const inter = Inter({ subsets: ["latin"] });
-//const playfair = Playfair_Display({ subsets: ["latin"] });
-//const source = Source_Sans_3({ subsets: ["latin"] });
-
 const playfair = Playfair_Display({
   subsets: ["latin"],
   variable: "--display-font",
@@ -17,13 +13,11 @@ const source = Source_Sans_3({
   variable: "--body-font",
 });
 
-
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="scroll-smooth">
       <head>
-      <link rel="icon" type="image/x-icon" href="/favicon.svg"/>
+        <link rel="icon" type="image/x-icon" href="/favicon.svg" />
       </head>
       <body className={`${playfair.variable} ${source.variable}`}>
         <Navigation />

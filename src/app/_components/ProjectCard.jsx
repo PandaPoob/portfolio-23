@@ -2,13 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 
 function ProjectCard(props) {
-  console.log(props);
   return (
     <Link
       href={`/projects/${props.slug}`}
       className="transition-transform transform hover:translate-x-1 hover:-translate-y-1"
     >
-      <article className="max-w-[22rem] flex flex-col h-full min-h-[460px] shadow-card">
+      <article className="max-w-[21.5rem] flex flex-col h-full max-h-[30rem] shadow-card">
         <div className="relative bg-light p-5 h-[45%] flex justify-center items-center">
           <div className="relative w-full h-auto min-h-[12rem]">
             <Image
@@ -22,7 +21,7 @@ function ProjectCard(props) {
         </div>
         <div className="h-[55%] px-5 py-3 flex flex-col">
           <p className="italic font-light">{props.created_when}</p>
-          <h3 className="text-h4 md:text-h3 font-light mb-1 md:font-light">
+          <h3 className="text-h4 font-light mb-1 md:font-light">
             {props.title}
           </h3>
           <p className="text-text">{props.card_descrip}</p>

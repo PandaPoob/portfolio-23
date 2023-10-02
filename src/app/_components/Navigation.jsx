@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 function Navigation() {
   const [oldScrollPosition, setOldScrollPosition] = useState(0);
@@ -9,7 +9,6 @@ function Navigation() {
 
   useEffect(() => {
     const handleScroll = () => {
-      
       const position = window.scrollY;
       setOldScrollPosition(position);
       if (oldScrollPosition > window.scrollY) {
@@ -36,14 +35,17 @@ function Navigation() {
   }
 
   return (
-    <nav className="bg-light p-3 fixed left-0 w-full transition-transform duration-300 transform z-50"
-    style={{
-      transform: `translateY(${getTopValue()})`,
-      ...(isScrolling && oldScrollPosition !== 0 && { boxShadow: "2px 2px 4px 1px rgba(32, 16, 54, 0.20)" })
-    }}
-    
+    <nav
+      className="bg-light p-3 fixed left-0 w-full transition-transform duration-300 transform z-50"
+      style={{
+        transform: `translateY(${getTopValue()})`,
+        ...(isScrolling &&
+          oldScrollPosition !== 0 && {
+            boxShadow: "2px 2px 4px 1px rgba(32, 16, 54, 0.20)",
+          }),
+      }}
     >
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center text-dark">
         <div>
           <Link href="/">
             <Image src={"/logo.svg"} width={52} height={52} alt="Logo" />
