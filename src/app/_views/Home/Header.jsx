@@ -23,12 +23,11 @@ function Header() {
           </div>
         </div>
         <div className="flex justify-center self-center mt-14">
-          <Link href="/#about">
+          <Link href="/#about" scroll={false}>
             <Image
               src={"/icon_arrow.svg"}
               width={36}
               height={12}
-              scroll={false}
               alt="arrow_icon"
             />
           </Link>

@@ -42,6 +42,7 @@ module.exports = {
       },
       boxShadow: {
         card: "2px 2px 4px 1px rgba(32, 16, 54, 0.48)",
+        nav: "2px 2px 4px 1px rgba(32, 16, 54, 0.20)",
       },
     },
   },
