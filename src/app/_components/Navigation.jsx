@@ -52,15 +52,21 @@ function Navigation() {
           </Link>
         </div>
         <div>
-          <ul className="flex gap-5 md:gap-12 text-body font-normal">
+          <ul className="grid grid-cols-3 gap-5 md:gap-12 text-body font-normal">
             <li>
-              <Link href="/#about">about</Link>
+              <Link href="/#about" className="hover:font-semibold">
+                about
+              </Link>
+            </li>
+            <li className="min-w-[60px]">
+              <Link href="/#projects" className="hover:font-semibold">
+                projects
+              </Link>
             </li>
             <li>
-              <Link href="/#projects">projects</Link>
-            </li>
-            <li>
-              <Link href="/#contact">contact</Link>
+              <Link href="/#contact" className="hover:font-semibold">
+                contact
+              </Link>
             </li>
           </ul>
         </div>

@@ -52,36 +52,39 @@ function NavigationButton({ url, title, variant = "primary" }) {
   return (
     <Link
       href={url}
-      className={`flex items-center gap-3 relative group ${
-        variant !== "primary" && "flex-row-reverse"
-      }`}
+      className={`grid sm:grid-cols-3 items-center gap-3 relative col-start-1 col-end-4 group`}
       onMouseEnter={animateBtn}
       onMouseLeave={animateLeave}
     >
       <span
-        className={`${
+        className={`
+        py-2 px-6 rounded-full flex items-center justify-center min-w-[10rem] relative z-10 col-start-2 col-end-3
+        ${
           variant !== "primary"
-            ? "border border-dark py-2 px-6 rounded-full flex items-center justify-center min-w-[10rem] relative z-10"
-            : "bg-dark text-white py-2 px-6 rounded-full flex items-center justify-center min-w-[10rem] relative z-10"
+            ? "border border-dark"
+            : "bg-dark border text-white"
         }`}
       >
         {title}
       </span>
-      <span className="relative flex items-center">
+      <span
+        className={`hidden sm:relative sm:flex items-center ${
+          variant !== "primary" &&
+          "col-start-1 col-end-2 row-start-1 justify-end"
+        }`}
+      >
         <span
-          className={`absolute ${variant !== "primary" && "right-[10%]"}
-          whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-200 ${
+          className={`absolute whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-200 ${
             !isHovered && "delay-200"
           }`}
         >
           {getProjectName(url)}
         </span>
         <span
-          id="arrow"
           className={`transform translate-x-0 ${
             variant == "primary"
-              ? "group-hover:translate-x-28"
-              : "group-hover:-translate-x-28"
+              ? "group-hover:translate-x-[7.5rem]"
+              : "group-hover:-translate-x-[7.5rem]"
           } transition-transform duration-200 ${isHovered && "delay-200"}`}
         >
           <svg
@@ -100,7 +103,7 @@ function NavigationButton({ url, title, variant = "primary" }) {
               x2="29.6529"
               y2="26.2426"
               stroke="#201036"
-              stroke-width="2"
+              strokeWidth="2"
             />
             <line
               x1="28.3471"
@@ -108,7 +111,7 @@ function NavigationButton({ url, title, variant = "primary" }) {
               x2="57.3471"
               y2="1.24259"
               stroke="#201036"
-              stroke-width="2"
+              strokeWidth="2"
             />
           </svg>
         </span>

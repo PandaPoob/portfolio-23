@@ -5,10 +5,12 @@ function ButtonLink({ title, url, variant = "primary" }) {
     <Link
       href={url}
       target="_blank"
-      className={`${
+      className={`
+      py-2 px-6 rounded-full flex items-center justify-center min-w-[8rem]
+      ${
         variant !== "primary"
-          ? "border border-dark py-2 px-6 rounded-full flex items-center justify-center min-w-[8rem]"
-          : "bg-dark text-white py-2 px-6 rounded-full flex items-center justify-center min-w-[8rem]"
+          ? "border border-dark hover:bg-dark hover:text-white"
+          : "bg-dark text-white border hover:bg-light hover:border-dark hover:text-dark"
       }`}
     >
       {title}

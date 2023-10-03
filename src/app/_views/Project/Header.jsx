@@ -51,7 +51,10 @@ function Header({ data }) {
                 variant="secondary"
               />
             )}
-            <ButtonLink title={"Website"} url={data.website} />
+            <ButtonLink
+              title={data.title != "Whack-A-Panda" ? "Website" : "Play"}
+              url={data.website}
+            />
           </div>
         </div>
       </div>
