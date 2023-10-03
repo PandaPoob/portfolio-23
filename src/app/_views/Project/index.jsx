@@ -1,7 +1,7 @@
 import Header from "./Header";
 import Description from "./Description";
 import TechTools from "./TechTools";
-import Heading from "@/app/_components/Heading";
+import OtherProjects from "./OtherProjects";
 
 function Project(props) {
   console.log(props);
@@ -10,9 +10,7 @@ function Project(props) {
       <Header data={props} />
       <Description data={props} />
       <TechTools data={props} />
-      <section className="mx-3 my-16 md:my-28 ">
-        <Heading title="Other projects" />
-      </section>
+      <OtherProjects data={props} />
     </main>
   );
 }
