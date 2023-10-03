@@ -25,12 +25,30 @@ function Header() {
         </div>
         <div className="flex justify-center self-center mt-14">
           <Link href="/#about">
-            <Image
-              src={"/icon_arrow.svg"}
-              width={36}
-              height={12}
-              alt="arrow_icon"
-            />
+            <svg
+              width="52"
+              height="20"
+              viewBox="0 0 58 27"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <line
+                x1="0.65294"
+                y1="1.24259"
+                x2="29.6529"
+                y2="26.2426"
+                stroke="#201036"
+                stroke-width="2"
+              />
+              <line
+                x1="28.3471"
+                y1="26.2426"
+                x2="57.3471"
+                y2="1.24259"
+                stroke="#201036"
+                stroke-width="2"
+              />
+            </svg>
           </Link>
         </div>
       </div>
