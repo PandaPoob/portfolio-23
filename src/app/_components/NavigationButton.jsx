@@ -52,17 +52,19 @@ function NavigationButton({ url, title, variant = "primary" }) {
   return (
     <Link
       href={url}
-      className={`grid sm:grid-cols-3 items-center gap-3 relative col-start-1 col-end-4 group`}
+      className={`flex items-center gap-3 relative col-start-2 col-end-3 group ${
+        variant !== "primary" ? "flex-row-reverse md:mr-9" : "md:ml-9"
+      }`}
       onMouseEnter={animateBtn}
       onMouseLeave={animateLeave}
     >
       <span
         className={`
-        py-2 px-6 rounded-full flex items-center justify-center min-w-[10rem] relative z-10 col-start-2 col-end-3
+        py-2 px-6 rounded-full flex items-center justify-center min-w-[10rem] relative z-10 
         ${
           variant !== "primary"
-            ? "border border-dark"
-            : "bg-dark border text-white"
+            ? "border border-dark col-start-2 col-end-3"
+            : "bg-dark border text-white col-start-1 col-end-2"
         }`}
       >
         {title}

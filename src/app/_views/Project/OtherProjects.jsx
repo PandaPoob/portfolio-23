@@ -6,7 +6,7 @@ function OtherProjects({ data }) {
     <section className="mx-3 my-16 md:my-28 ">
       <Heading title="Other projects" />
       <div className="flex justify-center">
-        <div className="grid sm:grid-cols-3 items-center justify-center gap-10 mt-8">
+        <div className="grid sm:grid-cols-3 items-center justify-center gap-y-10 mt-8">
           <NavigationButton url={data.next} title={"Next project"} />
           <NavigationButton
             url={data.prev}
