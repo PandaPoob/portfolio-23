@@ -2,14 +2,17 @@ import Image from "next/image";
 
 function IconList({ list }) {
   return (
-    <div className="flex flex-wrap gap-10 justify-center">
+    <div className="grid grid-cols-2 gap-3 justify-center items-center sm:grid-cols-3 md:grid-cols-5 md:gap-6 lg:gap-10 lg:flex lg:flex-wrap">
       {list.map((icon) => (
-        <figure key={icon.label} className="grid text-center gap-1">
-          <figcaption>{icon.label}</figcaption>
+        <figure
+          key={icon.label}
+          className="flex flex-col text-center justify-center items-center gap-1"
+        >
+          <figcaption className="font-light italic">{icon.label}</figcaption>
           <Image
             src={`/tech_icons/${icon.img}`}
-            width={100}
-            height={100}
+            height={80}
+            width={80}
             alt={icon.label}
           />
         </figure>

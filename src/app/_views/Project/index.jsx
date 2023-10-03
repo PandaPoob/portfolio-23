@@ -1,6 +1,7 @@
 import Header from "./Header";
 import Description from "./Description";
-import IconList from "@/app/_components/IconList";
+import TechTools from "./TechTools";
+import Heading from "@/app/_components/Heading";
 
 function Project(props) {
   console.log(props);
@@ -8,18 +9,9 @@ function Project(props) {
     <main className="pt-10">
       <Header data={props} />
       <Description data={props} />
-      <section className="bg-bottom-grad">
-        <h2 className="font-display text-h4 text-center mb-4 lg:text-h2">
-          Tech stack
-        </h2>
-        <IconList list={props.tech_stack} />
-      </section>
-      <section>
-        <h2 className="font-display text-h4 text-center mb-4 lg:text-h2">
-          Other tools
-        </h2>
-
-        <IconList list={props.other_tools} />
+      <TechTools data={props} />
+      <section className="mx-3 my-16 md:my-28 ">
+        <Heading title="Other projects" />
       </section>
     </main>
   );

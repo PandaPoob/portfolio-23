@@ -28,22 +28,22 @@ async function getData(params) {
 export async function generateMetadata({ params }) {
   let title;
   switch (params.slug) {
-    case "twitter":
+    case "twitter-clone":
       title = "Twitter Clone";
       break;
-    case "change":
+    case "change-lingerie":
       title = "Change Lingerie";
       break;
-    case "kv":
+    case "kattens-vaern":
       title = "Kattens Værn";
       break;
-    case "hwating":
+    case "hwaiting-festival":
       title = "Hwaiting Festival";
       break;
-    case "hogwarts":
+    case "hacked-hogwarts":
       title = "Hacked Hogwarts";
       break;
-    case "panda":
+    case "whack-a-panda":
       title = "Whack-A-Panda";
       break;
     default:
