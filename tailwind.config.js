@@ -21,14 +21,12 @@ module.exports = {
       filter: "rgba(255, 255, 255, 0.67)",
     },
     fontSize: {
-      h1: ["4rem", { lineHeight: "normal", fontWeight: "400" }], //64px
-      h2: ["2.5rem", { lineHeight: "normal", fontWeight: "400" }], //40px
-      h3: ["2.25rem", { lineHeight: "normal", fontWeight: "400" }], //36px
-      h4: ["2rem", { lineHeight: "normal" }], //32px
-      body: ["1.5rem", { lineHeight: "normal" }], //24px
-      bodyS: ["1.125rem", { lineHeight: "normal" }], //18px
-      tag: ["1rem", { lineHeight: "normal" }], //16px
-      text: ["0.875rem", { lineHeight: "normal" }], //14px
+      xxl: ["3.75rem", { lineHeight: "normal", fontWeight: "400" }], //60px
+      xl: ["2.25rem", { lineHeight: "normal", fontWeight: "400" }], //36px
+      lg: ["2rem", { lineHeight: "normal" }], //32px
+      md: ["1.25rem", { lineHeight: "normal" }], //20px
+      body: ["1rem", { lineHeight: "normal" }], //16px
+      bodys: ["0.875rem", { lineHeight: "normal" }], //14px
     },
     fontFamily: {
       display: "var(--display-font)",

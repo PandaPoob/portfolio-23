@@ -4,9 +4,15 @@ import Image from "next/image";
 function Footer() {
   return (
     <footer className="bg-light flex flex-wrap justify-between py-5 px-3 items-center gap-1">
-      <p className="text-dark">©Freja Hee Eun Smith-Pedersen 2023</p>
+      <p className="text-dark text-bodys md:text-body">
+        ©Freja Hee Eun Smith-Pedersen 2023
+      </p>
       <div className="flex items-center justify-center gap-1 md:gap-3">
-        <Link href="https://www.linkedin.com/in/freja-smith98/" target="_blank">
+        <Link
+          href="https://www.linkedin.com/in/freja-smith98/"
+          target="_blank"
+          scroll={false}
+        >
           <Image
             src={"/icon_linkedin.svg"}
             width={36}

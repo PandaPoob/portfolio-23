@@ -17,14 +17,14 @@ function Header() {
             />
           </div>
           <div className="text-center md:flex md:flex-col md:items-start md:text-left">
-            <h1 className="font-display text-h3 md:text-h1 mb-1 md:mb-3">
+            <h1 className="font-display text-xl md:text-xxl mb-1 md:mb-3">
               Hi, I am <span className="font-semibold">Freja</span>
             </h1>
             <p className="text-tag">An aspiring Web Developer</p>
           </div>
         </div>
         <div className="flex justify-center self-center mt-14">
-          <Link href="/#about" scroll={false}>
+          <Link href="/#about">
             <Image
               src={"/icon_arrow.svg"}
               width={36}

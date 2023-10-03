@@ -52,7 +52,7 @@ function Navigation() {
           </Link>
         </div>
         <div>
-          <ul className="flex gap-12 text-bodyS font-normal">
+          <ul className="flex gap-5 md:gap-12 text-body font-normal">
             <li>
               <Link href="/#about">about</Link>
             </li>

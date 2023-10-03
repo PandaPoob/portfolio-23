@@ -1,17 +1,16 @@
 import Image from "next/image";
+import Heading from "@/app/_components/Heading";
 
 function About() {
   return (
     <section
       id="about"
-      className="flex flex-col items-center gap-10 mx-3 mt-8 lg:flex-row lg:justify-center lg:items-center lg:gap-28 lg:h-screen lg:mt-0"
+      className="flex flex-col items-center gap-16 mx-3 mt-3 lg:flex-row lg:justify-center lg:items-center lg:gap-28 lg:h-screen lg:mt-0"
     >
-      <div className="flex flex-col gap-14 max-w-xl">
+      <div className="flex flex-col gap-16 max-w-xl">
         <div>
-          <h2 className="font-display text-h4 text-center mb-4 lg:text-h2">
-            about
-          </h2>
-          <p>
+          <Heading title={"about"} />
+          <p className="mt-3">
             I am Freja Hee Eun Smith-Pedersen, 24 years old and located in the
             Urban area of Copenhagen (Storkøbenhavn). I finished my AP degree
             Multimedia Design with the Frontend Development elective spring 2023
@@ -21,23 +20,19 @@ function About() {
         </div>
 
         <div>
-          <h2 className="font-display text-h4 text-center mb-4 lg:text-h2">
-            motivations
-          </h2>
-          <p>
-            I am an aspiring web developer who loves coding and solving
-            problems. What truly motivates me is learning something new and then
-            implementing it in practice, not just hearing or reading about
-            something but actually doing it. That is probably why I have come to
-            enjoy coding and building web so much.
+          <Heading title={"motivations"} />
+          <p className="mt-3">
+            I am an aspiring web developer who has a passion for coding and a
+            love for problem-solving. What truly motivates me is the process of
+            learning something new and then applying it hands-on. This is why I
+            have come to enjoy and appreciate coding and web development so much
+            as it challenges me to continually learn and create.
           </p>
         </div>
 
         <div>
-          <h2 className="font-display text-h4 text-center mb-4 md:text-h2">
-            interests
-          </h2>
-          <p>
+          <Heading title={"interests"} />
+          <p className="mt-3">
             When I am not working on a new project I usually spend time with
             friends and family. I love long walks in the nearby forest with my
             dog and I also enjoy playing games if I have spare time.

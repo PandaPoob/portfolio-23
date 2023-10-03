@@ -21,13 +21,11 @@ function ProjectCard(props) {
         </div>
         <div className="h-[55%] px-5 py-3 flex flex-col">
           <p className="italic font-light">{props.created_when}</p>
-          <h3 className="text-h4 font-light mb-1 md:font-light">
-            {props.title}
-          </h3>
-          <p className="text-text">{props.card_descrip}</p>
+          <h3 className="text-lg font-light mb-1">{props.title}</h3>
+          <p className="text-bodys">{props.card_descrip}</p>
           <ul className="flex flex-wrap gap-2 mt-auto">
             {props.card_tags.map((tag) => (
-              <li key={tag} className="text-text bg-light px-1 rounded-[4px]">
+              <li key={tag} className="text-bodys bg-light px-1 rounded-[4px]">
                 {tag}
               </li>
             ))}
