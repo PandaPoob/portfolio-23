@@ -29,7 +29,10 @@ export default function RootLayout({ children }) {
     <html lang="en" className="scroll-smooth">
       <head>
         <link rel="icon" type="image/x-icon" href="/favicon.svg" />
-        <meta property="og:image" content="/docu/hogwarts.png" />
+        <meta
+          property="og:image"
+          content="https://pandapoob.com/img/display.PNG"
+        />
       </head>
       <body
         className={`${playfair.variable} ${source.variable} max-w-screen overflow-x-hidden`}
