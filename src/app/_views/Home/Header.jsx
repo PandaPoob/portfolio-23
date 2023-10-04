@@ -41,7 +41,14 @@ function Header() {
             <p className="text-tag">An aspiring Web Developer</p>
           </div>
         </div>
-        <div className="flex justify-center self-center mt-14">
+        <div
+          className="flex justify-center self-center mt-14"
+          data-aos-anchor="#header"
+          data-aos="fade-up"
+          data-aos-delay="1850"
+          data-aos-duration="600"
+          data-aos-easing="ease-in-out"
+        >
           <Link href="/#about" className="animate-bounce">
             <svg
               width="52"
