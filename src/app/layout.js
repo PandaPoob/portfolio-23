@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" type="image/x-icon" href="/favicon.svg" />
         <meta
           property="og:image"
-          content="https://pandapoob.com/img/display.PNG"
+          content="https://pandapoob.com/images/frontpage.PNG"
         />
       </head>
       <body
