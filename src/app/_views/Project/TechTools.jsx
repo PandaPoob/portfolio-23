@@ -3,7 +3,7 @@ import Heading from "@/app/_components/Heading";
 
 function TechTools({ data }) {
   return (
-    <section className="bg-light py-16">
+    <section className="bg-light py-16 mt-16 md:mt-28">
       <div
         className="pb-14 grid gap-7 px-3"
         data-aos="fade-up"

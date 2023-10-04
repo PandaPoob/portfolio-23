@@ -75,7 +75,7 @@ function Navigation() {
           </Link>
         </div>
         <div>
-          <ul className="grid grid-cols-3 gap-5 md:gap-12 text-body font-normal">
+          <ul className="grid grid-cols-3 gap-5 md:gap-12 text-body font-normal sm:mr-2">
             <li>
               <Link href="/#about" className="hover:font-semibold">
                 about
