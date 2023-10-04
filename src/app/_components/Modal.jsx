@@ -12,6 +12,7 @@ function Modal({ data }) {
         <button
           onClick={() => {
             setIsOpen(true);
+            document.body.style.overflow = "hidden";
           }}
         >
           <span>{data.detail_docu_text}</span>
@@ -24,12 +25,20 @@ function Modal({ data }) {
           <div className="relative bg-white w-full h-full max-w-screen-xxl md:max-h-[90vh] rounded-xl p-8 lg:m-6">
             <div className="flex justify-between w-full">
               <div>
-                <Heading title="Relational diagram" />
+                <Heading
+                  title={
+                    data.detail_docu_btn
+                      ? data.detail_docu_btn.charAt(0).toUpperCase() +
+                        data.detail_docu_btn.slice(1)
+                      : "Diagram"
+                  }
+                />
               </div>
               <button
                 className="group"
                 onClick={() => {
                   setIsOpen(false);
+                  document.body.style.overflow = "auto";
                 }}
               >
                 <svg
@@ -103,10 +112,9 @@ function Modal({ data }) {
               <Image
                 src={`/docu/${data.detail_docu_img}`}
                 fill={true}
-                alt="Freja"
+                alt={data.detail_docu_btn}
                 style={{ objectFit: "contain" }}
                 sizes="(max-width: 768px) 100vw"
-                priority
               />
             </div>
           </div>
