@@ -3,7 +3,7 @@ import Heading from "@/app/_components/Heading";
 
 function ProjectList({ data }) {
   return (
-    <section id="projects" className="mt-28">
+    <section id="projects" className="mt-10">
       <div
         data-aos="fade-up"
         data-aos-delay="50"
