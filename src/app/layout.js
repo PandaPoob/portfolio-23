@@ -29,6 +29,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className="scroll-smooth">
       <head>
         <link rel="icon" type="image/x-icon" href="/favicon.svg" />
+        <meta property="og:image" content="/docu/hogwarts.png" />
       </head>
       <body className={`${playfair.variable} ${source.variable}`}>
         <Navigation />
