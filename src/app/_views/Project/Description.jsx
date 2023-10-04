@@ -8,7 +8,7 @@ function Description({ data }) {
         className="max-w-xl"
         data-aos="fade-up"
         data-aos-delay="50"
-        data-aos-duration="800"
+        data-aos-duration="600"
         data-aos-easing="ease-in-out"
       >
         <Heading title="Description" />

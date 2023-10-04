@@ -12,7 +12,7 @@ function About() {
         className="flex flex-col gap-16 max-w-xl"
         data-aos="fade-right"
         data-aos-delay="50"
-        data-aos-duration="900"
+        data-aos-duration="500"
         data-aos-easing="ease-in-out"
       >
         <div>
@@ -52,7 +52,7 @@ function About() {
         className="relative w-full h-full lg:w-auto flex flex-col justify-center"
         data-aos="fade-left"
         data-aos-delay="50"
-        data-aos-duration="900"
+        data-aos-duration="500"
         data-aos-easing="ease-in-out"
       >
         <div className="relative w-full h-auto min-h-[20rem] lg:w-auto lg:min-w-[30rem] lg:min-h-[30rem]">

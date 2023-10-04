@@ -11,7 +11,7 @@ function ProjectCard(props) {
         className="max-w-[21.5rem] flex flex-col h-full max-h-[30rem] shadow-card"
         data-aos="fade-up"
         data-aos-delay="50"
-        data-aos-duration="800"
+        data-aos-duration="300"
         data-aos-easing="ease-in-out"
       >
         <div className="relative bg-light p-5 h-[45%] flex justify-center items-center">

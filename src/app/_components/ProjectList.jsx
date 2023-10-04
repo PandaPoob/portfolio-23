@@ -7,7 +7,7 @@ function ProjectList({ data }) {
       <div
         data-aos="fade-up"
         data-aos-delay="50"
-        data-aos-duration="800"
+        data-aos-duration="500"
         data-aos-easing="ease-in-out"
       >
         <Heading title={"Projects"} />
