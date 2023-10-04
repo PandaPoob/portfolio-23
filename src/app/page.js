@@ -3,7 +3,8 @@ import Home from "@/app/_views/Home";
 
 export const metadata = {
   title: "Portfolio // Freja Smith",
-  description: "My portfolio where you learn more about me, Freja Smith, and the projects I've worked on",
+  description:
+    "My portfolio where you learn more about me, Freja Smith, and the projects I've worked on",
 };
 
 async function getData() {

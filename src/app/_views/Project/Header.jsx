@@ -1,10 +1,6 @@
-"use client";
 import ButtonLink from "@/app/_components/ButtonLink";
-import AOS from "aos";
 
 function Header({ data }) {
-  AOS.init();
-
   function getPostion(slug) {
     let pos;
     switch (slug) {

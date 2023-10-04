@@ -1,11 +1,7 @@
-"use client";
 import Image from "next/image";
 import Heading from "@/app/_components/Heading";
-import AOS from "aos";
 
 function About() {
-  AOS.init();
-
   return (
     <section
       id="about"

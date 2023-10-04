@@ -1,4 +1,3 @@
-"use client";
 import ProjectCard from "@/app/_components/ProjectCard";
 import Heading from "@/app/_components/Heading";
 

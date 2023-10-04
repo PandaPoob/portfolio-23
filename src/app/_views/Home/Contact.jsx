@@ -1,4 +1,3 @@
-"use client";
 import Link from "next/link";
 import Heading from "@/app/_components/Heading";
 

@@ -1,8 +1,11 @@
+"use client";
 import "./globals.css";
+import "aos/dist/aos.css";
 import { Playfair_Display, Source_Sans_3 } from "next/font/google";
 import Footer from "./_components/Footer";
 import Navigation from "./_components/Navigation";
-import "aos/dist/aos.css";
+import AOS from "aos";
+import { React, useEffect } from "react";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -15,6 +18,13 @@ const source = Source_Sans_3({
 });
 
 export default function RootLayout({ children }) {
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      once: false,
+    });
+  }, []);
+
   return (
     <html lang="en" className="scroll-smooth">
       <head>
