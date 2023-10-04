@@ -3,10 +3,21 @@ import Link from "next/link";
 
 function Header() {
   return (
-    <div className="bg-bottom-grad h-screen flex justify-center items-center">
+    <div
+      id="header"
+      className="bg-bottom-grad h-screen flex justify-center items-center"
+    >
       <div className="w-full">
         <div className="flex flex-col items-center gap-3 justify-center md:flex-row md:gap-10">
-          <div className="relative w-full h-auto min-h-[20rem] md:w-auto md:min-w-[30rem] md:min-h-[40rem]">
+          <div
+            id="img"
+            className="relative w-full h-auto min-h-[20rem] md:w-auto md:min-w-[30rem] md:min-h-[40rem]"
+            data-aos-anchor="#header"
+            data-aos="zoom-in-up"
+            data-aos-delay="50"
+            data-aos-duration="800"
+            data-aos-easing="ease-in-out"
+          >
             <Image
               src={"/header_img.png"}
               fill={true}
@@ -16,7 +27,14 @@ function Header() {
               priority
             />
           </div>
-          <div className="text-center md:flex md:flex-col md:items-start md:text-left">
+          <div
+            className="text-center md:flex md:flex-col md:items-start md:text-left"
+            data-aos-anchor="#header"
+            data-aos="fade-up"
+            data-aos-delay="850"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
             <h1 className="font-display text-xl md:text-xxl mb-1 md:mb-3">
               Hi, I am <span className="font-semibold">Freja</span>
             </h1>

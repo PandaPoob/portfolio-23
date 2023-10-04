@@ -1,13 +1,24 @@
+"use client";
 import Image from "next/image";
 import Heading from "@/app/_components/Heading";
+import AOS from "aos";
 
 function About() {
+  AOS.init();
+
   return (
     <section
       id="about"
       className="flex flex-col items-center gap-16 mx-3 mt-3 lg:flex-row lg:justify-center lg:items-center lg:gap-28 lg:h-screen lg:mt-0"
     >
-      <div className="flex flex-col gap-16 max-w-xl">
+      <div
+        data-aos-anchor="#about"
+        className="flex flex-col gap-16 max-w-xl"
+        data-aos="fade-right"
+        data-aos-delay="50"
+        data-aos-duration="900"
+        data-aos-easing="ease-in-out"
+      >
         <div>
           <Heading title={"about"} />
           <p className="mt-3">
@@ -40,7 +51,14 @@ function About() {
         </div>
       </div>
 
-      <div className="relative w-full h-full lg:w-auto flex flex-col justify-center">
+      <div
+        data-aos-anchor="#about"
+        className="relative w-full h-full lg:w-auto flex flex-col justify-center"
+        data-aos="fade-left"
+        data-aos-delay="50"
+        data-aos-duration="900"
+        data-aos-easing="ease-in-out"
+      >
         <div className="relative w-full h-auto min-h-[20rem] lg:w-auto lg:min-w-[30rem] lg:min-h-[30rem]">
           <Image
             src={"/about_img.png"}

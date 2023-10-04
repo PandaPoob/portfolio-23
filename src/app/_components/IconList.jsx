@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function IconList({ list }) {
   return (
-    <div className="grid grid-cols-2 gap-3 justify-center items-center sm:grid-cols-3 md:grid-cols-5 md:gap-6 lg:gap-10 lg:flex lg:flex-wrap">
+    <div className="grid grid-cols-2 gap-3 justify-center items-center sm:grid-cols-3 md:flex md:flex-wrap md:gap-6 lg:gap-10">
       {list.map((icon) => (
         <figure
           key={icon.label}

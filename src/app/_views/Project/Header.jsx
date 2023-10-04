@@ -1,6 +1,10 @@
+"use client";
 import ButtonLink from "@/app/_components/ButtonLink";
+import AOS from "aos";
 
 function Header({ data }) {
+  AOS.init();
+
   function getPostion(slug) {
     let pos;
     switch (slug) {
@@ -40,7 +44,13 @@ function Header({ data }) {
         ></div>
       </div>
       <div className="relative z-20 bg-top-grad h-1/2 -mt-12">
-        <div className="h-full flex flex-col items-center justify-center pb-8">
+        <div
+          className="h-full flex flex-col items-center justify-center pb-8"
+          data-aos="fade-up"
+          data-aos-delay="50"
+          data-aos-duration="800"
+          data-aos-easing="ease-in-out"
+        >
           <p className="italic font-light">{data.created_when}</p>
           <h1 className="font-display text-xl md:text-xxl">{data.title}</h1>
           <div className="flex gap-3 mt-6">

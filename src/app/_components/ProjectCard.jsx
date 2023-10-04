@@ -7,7 +7,13 @@ function ProjectCard(props) {
       href={`/projects/${props.slug}`}
       className="transition-transform transform hover:translate-x-1 hover:-translate-y-1"
     >
-      <article className="max-w-[21.5rem] flex flex-col h-full max-h-[30rem] shadow-card">
+      <article
+        className="max-w-[21.5rem] flex flex-col h-full max-h-[30rem] shadow-card"
+        data-aos="fade-up"
+        data-aos-delay="50"
+        data-aos-duration="800"
+        data-aos-easing="ease-in-out"
+      >
         <div className="relative bg-light p-5 h-[45%] flex justify-center items-center">
           <div className="relative w-full h-auto min-h-[12rem]">
             <Image

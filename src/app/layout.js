@@ -2,6 +2,7 @@ import "./globals.css";
 import { Playfair_Display, Source_Sans_3 } from "next/font/google";
 import Footer from "./_components/Footer";
 import Navigation from "./_components/Navigation";
+import "aos/dist/aos.css";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
