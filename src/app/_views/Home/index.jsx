@@ -5,7 +5,7 @@ import ProjectList from "@/app/_components/ProjectList";
 
 function Home({ data }) {
   return (
-    <main>
+    <main className="max-w-[100vw] w-full">
       <Header />
       <About />
       <ProjectList data={data} />

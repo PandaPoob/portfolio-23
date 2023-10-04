@@ -31,7 +31,9 @@ export default function RootLayout({ children }) {
         <link rel="icon" type="image/x-icon" href="/favicon.svg" />
         <meta property="og:image" content="/docu/hogwarts.png" />
       </head>
-      <body className={`${playfair.variable} ${source.variable}`}>
+      <body
+        className={`${playfair.variable} ${source.variable} max-w-screen overflow-x-hidden`}
+      >
         <Navigation />
         <div className="text-dark font-body">{children}</div>
         <Footer />
