@@ -3,7 +3,10 @@ import Heading from "@/app/_components/Heading";
 
 function Contact() {
   return (
-    <section id="contact" className="mt-28 bg-top-grad py-24 md:pt-28">
+    <section
+      id="contact"
+      className="mt-28 bg-top-grad py-24 md:pt-28 overflow-y-hidden"
+    >
       <div
         data-aos="fade-up"
         data-aos-delay="50"
