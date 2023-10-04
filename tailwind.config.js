@@ -18,6 +18,7 @@ module.exports = {
       dark: "#201036",
       light: "#F2F1FF",
       white: "#FFFFFF",
+      black: "#000000",
       filter: "rgba(255, 255, 255, 0.67)",
     },
     fontSize: {

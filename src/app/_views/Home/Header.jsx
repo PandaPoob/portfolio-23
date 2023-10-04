@@ -38,7 +38,7 @@ function Header() {
                 x2="29.6529"
                 y2="26.2426"
                 stroke="#201036"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <line
                 x1="28.3471"
@@ -46,7 +46,7 @@ function Header() {
                 x2="57.3471"
                 y2="1.24259"
                 stroke="#201036"
-                stroke-width="2"
+                strokeWidth="2"
               />
             </svg>
           </Link>
