@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/kea/:path*",
+      "destination": "https://www.pandapoob.com/kea/:path*"
+    }
+  ]
+}
