@@ -34,7 +34,7 @@ function Navigation() {
 
   return (
     <nav
-      className="bg-light p-3 fixed left-0 w-screen transition-transform duration-300 transform z-40"
+      className="bg-light p-3 fixed left-0 right-0 w-screen transition-transform duration-300 transform z-40"
       style={{
         transform: `translateY(${getTopValue()})`,
         ...(isScrolling &&

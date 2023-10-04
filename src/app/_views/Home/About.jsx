@@ -5,7 +5,7 @@ function About() {
   return (
     <section
       id="about"
-      className="flex flex-col items-center gap-16 mx-3 mt-3 lg:flex-row lg:justify-center lg:items-center lg:gap-28 lg:h-screen lg:mt-0"
+      className="flex flex-col items-center gap-16 mx-3 mt-3 lg:flex-row lg:justify-center lg:items-center xl:gap-28 lg:h-screen lg:mt-0"
     >
       <div
         data-aos-anchor="#about"
