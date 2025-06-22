@@ -19,9 +19,15 @@ Deployed on **Vercel**, it fetches content from static JSON files from a separat
 
 ## 🚀 Getting Started
 
-### 1. Clone the repository
-
 ```bash
 git clone https://github.com/your-username/portfolio-23.git
 cd portfolio-23
+```
+
+```bash
+npm install
+```
+
+```bash
+npm run dev
 ```
