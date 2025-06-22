@@ -34,7 +34,11 @@ function Header({ data }) {
   return (
     <div className="h-screen flex flex-col">
       <div className="h-2/3 w-full relative">
-        <div className="absolute w-full h-full top-0 left-0 bg-filter z-10"></div>
+        <div
+          className={`absolute w-full h-full top-0 left-0  z-10 ${
+            data.slug !== "cf-dans" && bg - filter
+          }`}
+        ></div>
         <div
           className={`${getPostion(data.slug)}`}
           style={{

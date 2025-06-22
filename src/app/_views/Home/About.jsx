@@ -19,7 +19,7 @@ function About() {
           <Heading title={"about"} />
           <p className="mt-3">
             I am Freja Hee Eun Smith-Pedersen, a 26-year-old web developer based
-            in Copenhagen. I hold a Bachelors degree in Web Development from
+            in Copenhagen. I hold a Bachelor’s degree in Web Development from
             KEA, which I completed in June 2024, following an AP degree in
             Multimedia Design with a Frontend Development elective.
           </p>
