@@ -19,17 +19,17 @@ function About() {
           <Heading title={"about"} />
           <p className="mt-3">
             I am Freja Hee Eun Smith-Pedersen, a 26-year-old web developer based
-            in Copenhagen. I hold a Bachelor's degree in Web Development from
+            in Copenhagen. I hold a Bachelors degree in Web Development from
             KEA, which I completed in June 2024, following an AP degree in
             Multimedia Design with a Frontend Development elective.
           </p>
           <p className="mt-3">
-            While I'm currently working as a developer, this portfolio reflects
+            While I’m currently working as a developer, this portfolio reflects
             something more personal — a space for the things I build out of
-            curiosity, creativity, and a love for code. Most of what you'll find
+            curiosity, creativity, and a love for code. Most of what you’ll find
             here are hobby projects, small freelance collaborations, and
             experiments with tools and technologies I enjoy. Some projects also
-            date back to my time as a student — ones I'm still proud of, either
+            date back to my time as a student — ones I’m still proud of, either
             because of what I learned through them or how they marked a
             milestone in my development journey.
           </p>
@@ -50,7 +50,7 @@ function About() {
         <div>
           <Heading title={"interests"} />
           <p className="mt-3">
-            When I'm not working on a project, I usually spend time with
+            When I’m not working on a project, I usually spend time with
             friends, family, or out in nature with my dog — long walks in
             Kalvebod Fælled are one of my favorite ways to unwind. I also enjoy
             playing video games when I have the time, from multiplayer to
