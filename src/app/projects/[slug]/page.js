@@ -28,6 +28,8 @@ async function getData(params) {
 export async function generateMetadata({ params }) {
   let title;
   switch (params.slug) {
+    case "cf-dans":
+      title = "CF Dans";
     case "twitter-clone":
       title = "Twitter Clone";
       break;

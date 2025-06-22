@@ -4,6 +4,9 @@ function Header({ data }) {
   function getPostion(slug) {
     let pos;
     switch (slug) {
+      case "cf-dans":
+        pos = "w-full h-full bg-cover bg-center lg:bg-[center_top_-8rem]";
+        break;
       case "twitter-clone":
         pos = "w-full h-full bg-cover bg-center lg:bg-[center_top_-8rem]";
         break;
