@@ -1,7 +1,7 @@
 # 📁 Portfolio-23
 
 A personal portfolio site built with **Next.js** and styled using **Tailwind CSS**.  
-Deployed on **Vercel**, it fetches content from static JSON files hosted in a separate [repository](https://github.com/PandaPoob/portfolio_project_data) on **Netlify**.
+Deployed on **Vercel**, it fetches content from static JSON files from a separate [repository](https://github.com/PandaPoob/portfolio_project_data) hosted on **Netlify**.
 
 ---
 
