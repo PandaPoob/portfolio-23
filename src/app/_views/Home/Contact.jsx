@@ -17,8 +17,8 @@ function Contact() {
         <Heading title={"Get in touch"} />
         <p className="text-tag md:text-bodyS mt-4 mb-2">
           Email me at{" "}
-          <Link href="mailto:frej400d@stud.kea.dk" className="font-semibold">
-            frej400d@stud.kea.dk
+          <Link href="mailto:frejasmith123@gmail.com" className="font-semibold">
+            frejasmith123@gmail.com
           </Link>
         </p>
         <p>Or find me here:</p>

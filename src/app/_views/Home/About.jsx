@@ -18,11 +18,11 @@ function About() {
         <div>
           <Heading title={"about"} />
           <p className="mt-3">
-            I am Freja Hee Eun Smith-Pedersen, 24 years old and located in the
-            Urban area of Copenhagen (Storkøbenhavn). I finished my AP degree
-            Multimedia Design with the Frontend Development elective spring 2023
-            and am currently studying the Top-up Bachelor’s degree Web
-            development at KEA.
+            I am Freja Hee Eun Smith-Pedersen, 26 years old and located in
+            Copenhagen (København S). I finished my Bachelor's degree in Web
+            Development summer 2024 I finished my AP degree Multimedia Design
+            with the Frontend Development elective spring 2023 and am currently
+            studying the Top-up Bachelor’s degree Web development at KEA.
           </p>
         </div>
 
