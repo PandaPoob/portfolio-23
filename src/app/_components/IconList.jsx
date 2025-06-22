@@ -14,6 +14,7 @@ function IconList({ list }) {
             height={80}
             width={80}
             alt={icon.label}
+            className="w-[80px] h-[80px] object-contain"
           />
         </figure>
       ))}

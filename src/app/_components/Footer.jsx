@@ -52,7 +52,7 @@ function Footer() {
             />
           </svg>
         </Link>
-        <Link href="mailto:frej400d@stud.kea.dk" className="h-auto group">
+        <Link href="mailto:frejasmith123@gmail.com" className="h-auto group">
           <svg
             width="43"
             height="30"

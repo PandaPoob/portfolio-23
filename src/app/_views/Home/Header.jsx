@@ -38,7 +38,7 @@ function Header() {
             <h1 className="font-display text-xl md:text-xxl mb-1 md:mb-3">
               Hi, I am <span className="font-semibold">Freja</span>
             </h1>
-            <p className="text-tag">An aspiring Web Developer</p>
+            <p className="text-tag">A Frontend-Focused Full Stack Developer</p>
           </div>
         </div>
         <div

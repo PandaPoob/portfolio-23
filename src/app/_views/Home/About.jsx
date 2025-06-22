@@ -18,31 +18,44 @@ function About() {
         <div>
           <Heading title={"about"} />
           <p className="mt-3">
-            I am Freja Hee Eun Smith-Pedersen, 24 years old and located in the
-            Urban area of Copenhagen (Storkøbenhavn). I finished my AP degree
-            Multimedia Design with the Frontend Development elective spring 2023
-            and am currently studying the Top-up Bachelor’s degree Web
-            development at KEA.
+            I am Freja Hee Eun Smith-Pedersen, a 26-year-old web developer based
+            in Copenhagen. I hold a Bachelor’s degree in Web Development from
+            KEA, which I completed in June 2024, following an AP degree in
+            Multimedia Design with a Frontend Development elective.
+          </p>
+          <p className="mt-3">
+            While I’m currently working as a developer, this portfolio reflects
+            something more personal — a space for the things I build out of
+            curiosity, creativity, and a love for code. Most of what you’ll find
+            here are hobby projects, small freelance collaborations, and
+            experiments with tools and technologies I enjoy. Some projects also
+            date back to my time as a student — ones I’m still proud of, either
+            because of what I learned through them or how they marked a
+            milestone in my development journey.
           </p>
         </div>
 
         <div>
           <Heading title={"motivations"} />
           <p className="mt-3">
-            I am an aspiring web developer who has a passion for coding and a
-            love for problem-solving. What truly motivates me is the process of
-            learning something new and then applying it hands-on. This is why I
-            have come to enjoy and appreciate coding and web development so much
-            as it challenges me to continually learn and create.
+            What keeps me engaged in web development is the mix of creativity
+            and continuous learning. I enjoy the process of building — seeing an
+            idea take shape, solving problems along the way, and learning
+            something new as I go. I find real motivation in using my skills to
+            build things that are not only functional, but meaningful to the
+            people who interact with them.
           </p>
         </div>
 
         <div>
           <Heading title={"interests"} />
           <p className="mt-3">
-            When I am not working on a new project I usually spend time with
-            friends and family. I love long walks in the nearby forest with my
-            dog and I also enjoy playing games if I have spare time.
+            When I’m not working on a project, I usually spend time with
+            friends, family, or out in nature with my dog — long walks in
+            Kalvebod Fælled are one of my favorite ways to unwind. I also enjoy
+            playing video games when I have the time, from multiplayer to
+            singleplayer, building worlds, or being competitive — I love all
+            kinds of gaming!
           </p>
         </div>
       </div>
