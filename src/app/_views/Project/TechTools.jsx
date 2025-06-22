@@ -14,7 +14,6 @@ function TechTools({ data }) {
         <Heading title="Tech stack" />
         <IconList list={data.tech_stack} />
       </div>
-
       <div
         className="grid gap-7 px-3"
         data-aos="fade-up"
