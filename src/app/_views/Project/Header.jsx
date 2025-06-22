@@ -36,7 +36,7 @@ function Header({ data }) {
       <div className="h-2/3 w-full relative">
         <div
           className={`absolute w-full h-full top-0 left-0  z-10 ${
-            data.slug !== "cf-dans" && bg - filter
+            data.slug !== "cf-dans" && "bg-filter"
           }`}
         ></div>
         <div
